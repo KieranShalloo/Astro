@@ -1,21 +1,16 @@
 {
-	"name": "astrosite",
-	"type": "module",
-	"version": "0.0.1",
-	"browserslist": [
-		"defaults"
-	],
-	"scripts": {
-		"dev": "astro dev",
-		"start": "astro dev",
-		"build": "astro build",
-		"preview": "astro preview",
-		"astro": "astro"
-	},
-	"dependencies": {
-		"astro": "^2.0.8",
-		"astro-icon": "^0.8.0",
-		"postcss": "^8.4.21",
-		"postcss-preset-env": "^8.0.1"
-	}
+  "name": "@example/portfolio",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^2.0.9"
+  }
 }
