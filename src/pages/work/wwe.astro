@@ -1,0 +1,54 @@
+---
+
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+import ContactCTA from '../../components/ContactCTA.astro';
+import PortfolioPreview from '../../components/PortfolioPreview.astro';
+import Hero from '../../components/Hero.astro';
+import Grid from '../../components/Grid.astro';
+
+
+---
+
+<BaseLayout
+	title="WWE portfolio"
+	description="Learn about Kieran Shalloo's most recent projects"
+>
+	<div class="stack gap-20">
+		<main class="wrapper stack gap-8">
+			<Hero
+				title="wwe network"
+				tagline="See my most recent projects below to get an idea of my past experience."
+				align="start"
+			/>
+			<div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
+
+				<div >
+				  <div class="w-full aspect-square">
+					<img src="https://www.kieranshalloodesign.com/images/wwe/RW-app-tilesANGLE.jpg" alt="Lamp"
+					  sizes="(max-width: 800px) 100vw, 400px"
+
+					  aspectRatio="16:9"
+
+					  fit="cover"
+					  position="center"
+
+					/>
+				  </div>
+				  <div class="mt-4 text-center">
+					<h2 class="text-lg text-gray-800">
+ss
+					</h2>
+					<h3 class="text-sm text-slate-500">
+dsc
+					</h3>
+				  </div>
+				</div>
+			  ))
+			}
+	</Grid>
+		</main>
+		<ContactCTA />
+	</div>
+</BaseLayout>
